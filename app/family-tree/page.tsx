@@ -4,13 +4,12 @@ import { useRouter } from "next/navigation";
 import ArrowMark from "@/components/ArrowMark";
 import Navbar from "@/components/Navbar";
 
-
 const App = () => {
   const router = useRouter();
   return (
     <>
       <Navbar />
-      <div className="flex py-5 flex-col items-center w-screen h-full  bg-blue-100 ">
+      <div className="flex py-5 flex-col items-center w-screen h-screen  bg-blue-100 ">
         <Cart name={"पण्डित जयदेव (मूल पुरुष)"}>
           <ArrowMark style={"left-[5.3rem]"} />
         </Cart>

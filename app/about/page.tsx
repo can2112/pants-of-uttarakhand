@@ -1,12 +1,12 @@
-'use client';
+"use client";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
 const About = () => {
-	return (
+  return (
     <>
       <Navbar />
-      <div className=" bg-blue-100 p-8 h-screen rounded-md shadow-md">
+      <div className=" bg-blue-100 p-5 h-screen  shadow-md">
         <h1 className="text-3xl font-bold mb-4 text-blue-800">About Us</h1>
         <p className="text-gray-700">
           Welcome to our website! We are a passionate team dedicated to

@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="home-container bg-blue-100 p-8 rounded-md shadow-md h-screen">
+      <div className="home-container bg-blue-100 p-5  shadow-md h-screen">
         <h1 className="text-4xl font-bold mb-6 text-blue-800">
           Welcome to Our Website
         </h1>
@@ -20,7 +20,7 @@ const Home = () => {
             href="/about"
             className="inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none transition duration-300"
           >
-            Learn More About Us
+           Download PDF
           </a>
         </div>
       </div>
