@@ -1,20 +1,29 @@
 import React from "react";
+import { FaInfoCircle } from "react-icons/fa";
 
-const Cart = ({ member }: any) => {
-  console.log(member, "member=--->");
+interface Icart {
+  name: string;
+  children?: any;
+  style?: string;
+  click?: any;
+  onClick?: () => void;
+}
+
+const Cart = ({ name, children, style, click, onClick }: Icart) => {
   return (
-    <div className=" m-5">
-      <div className="w-full h-10 m-5 relative bg-blue-300 rounded-full flex justify-center items-center">
-        <span className="text-white text-sm font-semibold">{member.text}</span>
-
-        {member?.children?.length > 0 && (
-          <div className="flex flex-col gap-5 items-center absolute left-10 top-10">
-            {member.children.map((child: any) => (
-              <Cart key={child.id} member={child} />
-            ))}
-          </div>
-        )}
-      </div>
+    <div
+      className={` m-2 ${
+        !click ? "bg-blue-200" : " bg-blue-600 text-white "
+      } px-2 py-2 rounded relative ${style} ${click && "cursor-pointer"}`}
+      onClick={() => {
+        click && onClick && onClick();
+      }}
+    >
+      <section className="flex justify-between items-center gap-4">
+        <p className="">{name}</p>
+        {click && <FaInfoCircle />}
+      </section>
+      {children}
     </div>
   );
 };
