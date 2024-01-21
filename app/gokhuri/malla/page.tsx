@@ -34,7 +34,7 @@ function page() {
           </Cart>
           <section className="absolute right-48">
             <Cart name="श्रीकृष्ण" style="left-[1rem] top-[5.8rem]">
-              <ArrowMark style="left-[3.3rem] h-20 " />
+              <ArrowMark style="left-[3.3rem] h-[5rem] " />
               <BigLine style="!w-[10rem] top-[7.5rem]   ">
                 <ArrowMark style={"-left-[1px] top-[1px] "} />
                 <ArrowMark style={"right-[0px] top-[1px] "} />
@@ -54,7 +54,7 @@ function page() {
                 <ArrowMark style="left-[2.3rem h-7" />
                 <BigLine style="!w-[22rem] top-[3.3rem] -right-[10rem]  ">
                   <ArrowMark style={"-left-[1px] top-[1px] "} />
-                  <ArrowMark style={"-right-[1px] top-[1px] "} />
+                  <ArrowMark style={"-right-[0px] top-[1px] "} />
                 </BigLine>
               </Cart>
               <section className="absolute top-[10rem]">
@@ -65,7 +65,7 @@ function page() {
               </section>
               <section className="absolute top-[10rem]">
                 <Cart name="रामचन्द्र" style="left-[9rem] top-[4.7rem]">
-                  <ArrowMark style="left-[1.9rem] h-24" />
+                  <ArrowMark style="left-[1.9rem] h-[7rem]" />
                   <BigLine style="!w-[17rem] top-[7.5rem] -right-[7rem]  ">
                     <ArrowMark style={"-left-[1px] top-[1px] "} />
                     <ArrowMark style={"right-[0px] top-[1px] "} />
