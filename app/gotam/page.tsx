@@ -5,7 +5,7 @@ import Cart from "@/components/Cart";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function page() {
+function Page() {
   const router = useRouter();
   return (
     <div className="flex mt-1 flex-col items-center w-screen h-screen">
@@ -71,4 +71,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

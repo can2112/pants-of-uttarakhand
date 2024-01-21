@@ -5,7 +5,7 @@ import Cart from "@/components/Cart";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function shivdev() {
+function Shivdev() {
   const router = useRouter();
   return (
     <div className="flex mt-1 flex-col items-center w-screen h-screen">
@@ -98,4 +98,4 @@ function shivdev() {
   );
 }
 
-export default shivdev;
+export default Shivdev;
