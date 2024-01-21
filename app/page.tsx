@@ -1,81 +1,31 @@
 "use client";
-import Cart from "@/components/Cart";
-import "../components/tree.css";
-import { useRouter } from "next/navigation";
-import ArrowMark from "@/components/ArrowMark";
-import BigLine from "@/components/BigLine";
+import Navbar from "@/components/Navbar";
+import React from "react";
 
-const App = () => {
-  const router = useRouter();
+const Home = () => {
   return (
     <>
-      <div className="flex mt-1 flex-col items-center w-screen h-screen">
-        <Cart name={"पण्डित जयदेव (मूल पुरुष)"}>
-          <ArrowMark style={"left-[5.3rem]"} />
-        </Cart>
-        <span />
-
-        <Cart name={"पण्डित रविदेव 2 "}>
-          <ArrowMark style={"left-14"} />
-        </Cart>
-        <Cart name={"पण्डित रामदेव 3"}>
-          {" "}
-          <ArrowMark style={"left-14"} />
-        </Cart>
-        <Cart name={"पण्डित भानुदेव 4"}>
-          {" "}
-          <ArrowMark style={"left-14"} />
-        </Cart>
-        <Cart name={"पण्डित श्रीधर 5"}>
-          <ArrowMark style={"left-[3.3rem]"} />
-          <div className="w-[15rem] absolute bg-black  h-1 top-[3.3rem] -left-11 flex justify-between">
-            <ArrowMark style={"left-0 top-0"} />
-            <ArrowMark style={"right-0 top-0 "} />
-          </div>
-        </Cart>
-        <div>
-          <Cart style={"right-[6.3rem] top-2"} name={"बलभद्र 6"}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <section className="absolute ">
-            <Cart
-              name={"शिवदेव 7"}
-              style={"right-[6.5rem]  text-white"}
-              click={true}
-              onClick={() => router.push("/shivdev")}
-            />
-          </section>
-        </div>
-        <section className="flex justify-center items-center flex-col">
-          <Cart
-            style={" bottom-12 left-[6.5rem]"}
-            name={"श्रीगोपाल (हटवाल) 6 "}
+      <Navbar />
+      <div className="home-container bg-blue-100 p-8 rounded-md shadow-md h-screen">
+        <h1 className="text-4xl font-bold mb-6 text-blue-800">
+          Welcome to Our Website
+        </h1>
+        <p className="text-gray-700">
+          Discover a world of valuable information and engaging content. Our
+          website is designed with you in mind, providing a seamless and
+          enjoyable experience.
+        </p>
+        <div className="mt-8">
+          <a
+            href="/about"
+            className="inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none transition duration-300"
           >
-            <ArrowMark style={"left-[4.8rem]"} />
-          </Cart>
-          <Cart style={" bottom-12 left-[6.5rem]"} name={"वैद्यनाथ 7 "}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <Cart style={" bottom-12 left-[6.5rem]"} name={"देसिक 8 "}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <Cart style={" bottom-12 left-[6.5rem]"} name={"दुर्गादत्त  9"}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <Cart style={" bottom-12 left-[6.5rem]"} name={"गंगाधर 10 "}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <Cart style={" bottom-12 left-[6.5rem]"} name={"जयदेव  11 "}>
-            <ArrowMark style={"left-[2.5rem]"} />
-          </Cart>
-          <Cart
-            style={" bottom-12 left-[6.5rem]"}
-            name={"मनोरथ (हटवाल राठ) 12 "}
-          />
-        </section>
+            Learn More About Us
+          </a>
+        </div>
       </div>
     </>
   );
 };
 
-export default App;
+export default Home;
