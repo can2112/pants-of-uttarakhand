@@ -33,7 +33,7 @@ function GokhuriLayout() {
       </Cart>
       <div className=" ">
         <Cart
-          name="हरिकृष्ण मल्ला गोखुरी  "
+          name="हरिकृष्ण (मल्ली गोखुरी)  "
           style={"right-[6rem] top-3 z-50"}
           click={true}
           onClick={() => router.push("/gokhuri/malla")}
@@ -41,7 +41,7 @@ function GokhuriLayout() {
       </div>
       <div className="relative bottom-11">
         <Cart
-          name="रतनमणि तल्ला गोखुरी  "
+          name="रतनमणि (तल्ला गोखुरी ) "
           style={"left-[6rem] z-50"}
           click={true}
           onClick={() => router.push("/gokhuri/talla")}

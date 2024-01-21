@@ -20,7 +20,7 @@ const Home = () => {
             href="/about"
             className="inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none transition duration-300"
           >
-           Download PDF
+            Download PDF
           </a>
         </div>
       </div>
