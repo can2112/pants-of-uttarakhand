@@ -3,9 +3,11 @@ import ArrowMark from "@/components/ArrowMark";
 import BigLine from "@/components/BigLine";
 import Cart from "@/components/Cart";
 import Navbar from "@/components/Navbar";
+import { useRouter } from "next/navigation";
 import React from "react";
 
-function page() {
+function Page() {
+  const router = useRouter();
   return (
     <>
       <Navbar />
@@ -158,11 +160,16 @@ function page() {
           </section>
         </section>
         <section className="absolute top-[9.5rem]">
-          <Cart name="रामदत" style="left-[10.5rem] " />
+          <Cart
+            name="रामदत"
+            style="left-[10rem] z-50"
+            click
+            onClick={() => router.push("/gokhuri/talla/kamla/ramdatt")}
+          />
         </section>
       </div>
     </>
   );
 }
 
-export default page;
+export default Page;
