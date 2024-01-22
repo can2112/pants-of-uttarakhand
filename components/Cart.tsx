@@ -19,7 +19,7 @@ const Cart = ({ name, children, style, click, onClick }: Icart) => {
         click && onClick && onClick();
       }}
     >
-      <section className="flex justify-between items-center gap-4">
+      <section className="flex justify-between items-center gap-1">
         <p className="">{name}</p>
         {click && <FaInfoCircle />}
       </section>
