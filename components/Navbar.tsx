@@ -6,7 +6,12 @@ function Navbar() {
   const router = useRouter();
   return (
     <div className="bg-blue-300/50 h-16 w-screen text-black flex justify-center] justify-between items-center px-4 font-bold">
-      <IoArrowBack size={30} color="darkblue" onClick={() => router.back()} />
+      <IoArrowBack
+        size={30}
+        color="darkblue"
+        className="cursor-pointer"
+        onClick={() => router.back()}
+      />
       <p onClick={() => router.push("/")} className="cursor-pointer">
         Home
       </p>

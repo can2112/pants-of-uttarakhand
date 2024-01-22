@@ -66,7 +66,7 @@ const Home = () => {
           कूर्मांचल आये।
         </p>
         <div
-          className="mt-8 inline-block px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none"
+          className="mt-8 inline-block px-6 py-3 cursor-pointer bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:bg-blue-600 focus:outline-none"
           onClick={() => {
             handleDownload();
           }}
