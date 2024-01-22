@@ -13,8 +13,8 @@ const About = () => {
         <p className="text-gray-700">
           Welcome to our family tree community! We believe in the power of
           connection, roots, and the branches that grow from them. Our family
-          tree isn't just a collection of names and dates; it's a living
-          testament to the stories, memories, and traditions that bind us
+          tree isn&rsquo;t just a collection of names and dates; it&rsquo;s a
+          living testament to the stories, memories, and traditions that bind us
           together.
         </p>
         <h1 className="text-3xl font-bold mb-4 mt-8 text-blue-800">
@@ -22,10 +22,10 @@ const About = () => {
         </h1>
         <p className="text-gray-700">
           Our family tree has deep and diverse roots, stretching across
-          generations and continents. It's a tapestry woven with the threads of
-          love, resilience, and shared experiences. From the oldest branches to
-          the newest buds, each member contributes to the unique character of
-          our family.
+          generations and continents. It&rsquo;s a tapestry woven with the
+          threads of love, resilience, and shared experiences. From the oldest
+          branches to the newest buds, each member contributes to the unique
+          character of our family.
         </p>
         <h1 className="text-3xl font-bold mb-4 mt-8 text-blue-800">
           Branches of Unity
