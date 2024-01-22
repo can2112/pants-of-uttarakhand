@@ -18,10 +18,10 @@ function page() {
           </BigLine>
         </Cart>
         <section className="absolute">
-          <Cart name="हरीशचन्द" style="right-[8rem] top-[4rem]" />
+          <Cart name="हरीशचन्द्र" style="right-[8rem] top-[4rem]" />
         </section>
         <section className="absolute">
-          <Cart name="प्रकाशचन्द" style="left-[8rem] top-[4rem]" />
+          <Cart name="प्रकाशचन्द्र" style="left-[8rem] top-[4rem]" />
         </section>
       </div>
     </>

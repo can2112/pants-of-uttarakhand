@@ -11,7 +11,7 @@ function Page() {
   return (
     <>
       <Navbar />
-      <div className="flex mt-1 flex-col items-center w-screen h-screen">
+      <div className="flex  flex-col items-center w-screen h-screen  bg-blue-100">
         <Cart name="कमलाकान्त" style="top-[1rem]">
           <ArrowMark style="h-[1.8rem]" />
           <BigLine style="!w-[22rem] top-[3.3rem] -right-[9rem] ">
@@ -112,7 +112,7 @@ function Page() {
                 <Cart name="सुरेश" style="right-[7.7rem] ">
                   <ArrowMark style="right-[1rem]  " />
                 </Cart>
-                <Cart name="सुरेश" style="right-[7rem] " />
+                <Cart name="सूरज" style="right-[7rem] " />
               </section>
               <section className="absolute top-[4rem]">
                 <Cart name="प्रकाश" style="right-[2rem] " />
@@ -153,10 +153,10 @@ function Page() {
             </div>
           </section>
           <section className="absolute top-[4rem]">
-            <Cart name="रेवाधर" style="left-[11.5rem] ">
+            <Cart name="रेवाधर" style="left-[9.7rem] ">
               <ArrowMark style="left-[1.5rem] h-[rem] " />
             </Cart>
-            <Cart name="रेवाधर" style="left-[11.5rem] " />
+            <Cart name="तारादत्त 0" style="left-[9.5rem] whitespace-nowrap " />
           </section>
         </section>
         <section className="absolute top-[9.5rem]">

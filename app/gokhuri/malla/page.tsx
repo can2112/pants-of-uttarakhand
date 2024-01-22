@@ -54,7 +54,7 @@ function Malla() {
                 <ArrowMark style="left-[2.3rem h-7" />
                 <BigLine style="!w-[22rem] top-[3.3rem] -right-[10rem]  ">
                   <ArrowMark style={"-left-[1px] top-[1px] "} />
-                  <ArrowMark style={"-right-[0px] top-[1px] "} />
+                  <ArrowMark style={"right-[0px] top-[1px] "} />
                 </BigLine>
               </Cart>
               <section className="absolute top-[10rem]">

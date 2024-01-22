@@ -37,7 +37,7 @@ function Prem() {
               </BigLine>
             </Cart>
             <div className="absolute">
-              <Cart name="रमेशचन्द" style="left-[3rem] top-[4.7rem]">
+              <Cart name="रमेशचन्द्र" style="left-[3rem] top-[4.7rem]">
                 <ArrowMark />
                 <BigLine style="!w-[8rem] top-[3.3rem] -right-[3rem]  ">
                   <ArrowMark style={"-left-[1px] top-[1px] "} />
@@ -45,14 +45,14 @@ function Prem() {
                 </BigLine>
               </Cart>
               <div className="absolute -right-[1rem] top-[9rem]">
-                <Cart name="गिरीशचन्द" style="left-5" />
+                <Cart name="गिरीशचन्द्र" style="left-5" />
               </div>
               <div className="absolute left-[8rem] top-[9rem]">
                 <Cart name="मनोज" />
               </div>
             </div>
             <div className="absolute">
-              <Cart name="हेमचन्द" style="left-[10rem] top-[4.7rem]">
+              <Cart name="हेमचन्द्र" style="left-[10rem] top-[4.7rem]">
                 <ArrowMark style="left-12 h-[8rem]" />
                 <BigLine style="!w-[8rem] top-[9.4rem] -right-[7.5rem] ">
                   <ArrowMark style={"right-[0px] top-[1px] "} />

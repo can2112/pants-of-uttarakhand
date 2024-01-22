@@ -41,7 +41,7 @@ function page() {
           <Cart name="चन्द्रशेखर" style="left-3" />
         </section>
         <section className="absolute top-[10rem]">
-          <Cart name="महेशचन्द" style="left-[8rem]" />
+          <Cart name="महेशचन्द्र" style="left-[8rem]" />
         </section>
       </div>
     </>

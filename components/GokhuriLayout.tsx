@@ -9,7 +9,7 @@ function GokhuriLayout() {
   const router = useRouter();
   return (
     <div className="flex mt-1 flex-col items-center w-screen h-screen">
-      <Cart name="गोरेश्वर मूल पुरुष की 13 पीढी  ">
+      <Cart name="गौरेश्वर मूल पुरुष की 13 पीढी  ">
         <ArrowMark style="left-[5.3rem]" />
       </Cart>
       <Cart name="रामदत्त">
@@ -33,7 +33,7 @@ function GokhuriLayout() {
       </Cart>
       <div className=" ">
         <Cart
-          name="हरिकृष्ण (मल्ली गोखुरी)  "
+          name="हरिकृष्ण (मल्ली गौखुरी)  "
           style={"right-[6rem] top-3 z-50"}
           click={true}
           onClick={() => router.push("/gokhuri/malla")}
@@ -41,7 +41,7 @@ function GokhuriLayout() {
       </div>
       <div className="relative bottom-11">
         <Cart
-          name="रतनमणि (तल्ली गोखुरी ) "
+          name="रतनमणि (तल्ली गौखुरी ) "
           style={"left-[6rem] z-50"}
           click={true}
           onClick={() => router.push("/gokhuri/talla")}

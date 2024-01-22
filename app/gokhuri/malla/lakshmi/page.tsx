@@ -59,7 +59,7 @@ function Laxmi() {
               <Cart name="हेम  " style=" whitespace-nowrap left-[5rem]" />
             </section>
             <section className="absolute top-[9rem]">
-              <Cart name="जगन्नाथ " style=" whitespace-nowrap left-[10rem]" />
+              <Cart name="दीप " style=" whitespace-nowrap left-[10rem]" />
             </section>
           </div>
           <div className="absolute">

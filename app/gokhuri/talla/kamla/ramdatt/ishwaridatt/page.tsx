@@ -9,8 +9,8 @@ function page() {
   return (
     <>
       <Navbar />
-      <div className="flex mt-1 flex-col items-center w-screen h-screen">
-        <Cart name="इश्वरीदत्त" style="">
+      <div className="flex  flex-col items-center w-screen h-screen  bg-blue-100">
+        <Cart name="ईश्वरीदत" style="">
           <ArrowMark />
           <BigLine style="!w-[20rem] top-[3.3rem] -right-[8.5rem] ">
             <ArrowMark style={"-left-[1px] top-[1px] "} />

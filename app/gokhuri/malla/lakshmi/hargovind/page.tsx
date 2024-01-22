@@ -26,12 +26,12 @@ function page() {
         <section className="absolute top-[8rem] ">
           <Cart name="जीवन " style=" left-[10rem]">
             <ArrowMark style="right-5  h-[2.8rem] " />
-            <BigLine style="!w-[8rem] top-[4.3rem] right-[1.3rem] ">
+            <BigLine style="!w-[8rem] top-[4.3rem] right-[2.3rem] ">
               <ArrowMark style={"-left-[1px] top-[1px] "} />
             </BigLine>
           </Cart>
           <div className="absolute top-[5.2rem]">
-            <Cart name="हिमांशु  " style=" left-[3rem] " />
+            <Cart name="हिमांशु  " style=" left-[2rem] " />
           </div>
           <Cart name="कवीन्द्र " style=" left-[10rem] top-9" />
         </section>

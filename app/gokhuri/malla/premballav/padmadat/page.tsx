@@ -68,8 +68,8 @@ function Padam() {
             <section className="absolute top-[9.6rem] right-[4rem]">
               <Cart name="चन्द्रशेखर "></Cart>
             </section>
-            <section className="absolute top-[9.6rem] left-[4rem]">
-              <Cart name="प्रकाशचंद्र "></Cart>
+            <section className="absolute top-[9.6rem] left-[4.3rem]">
+              <Cart name="गणेश"></Cart>
             </section>
           </div>
           <div className="absolute">
@@ -78,7 +78,7 @@ function Padam() {
         </section>
         <section className="absolute top-[10rem]">
           <Cart
-            name="गोविन्दबल्लभ"
+            name="गोविंदवल्लभ"
             style="right-[0rem] z-50"
             click={true}
             onClick={() =>

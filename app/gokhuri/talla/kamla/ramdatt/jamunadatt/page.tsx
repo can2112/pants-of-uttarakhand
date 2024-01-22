@@ -9,7 +9,7 @@ function page() {
   return (
     <>
       <Navbar />
-      <div className="flex mt-1 flex-col items-center w-screen h-screen">
+      <div className="flex  flex-col items-center w-screen h-screen  bg-blue-100">
         <Cart name="जमुनादत" style="">
           <ArrowMark />
           <div className="w-[24rem] absolute bg-black  h-1 top-[3.3rem] -left-[10rem] flex justify-between">

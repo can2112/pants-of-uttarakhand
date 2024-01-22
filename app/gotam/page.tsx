@@ -64,7 +64,7 @@ function Page() {
         </div>
         <div className="absolute">
           <Cart
-            name="गोरेश्वर गोखुरी  13"
+            name="गौरेश्वर गौखुरी  13"
             style="right-[6.7rem] top-[12rem]"
             click={true}
             onClick={() => router.push("/gokhuri")}

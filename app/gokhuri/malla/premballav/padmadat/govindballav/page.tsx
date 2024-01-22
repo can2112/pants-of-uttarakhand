@@ -10,7 +10,7 @@ function page() {
     <>
       <Navbar />
       <div className="flex flex-col items-center py-4 w-screen h-screen  bg-blue-100">
-        <Cart name="गोविन्दबल्लव">
+        <Cart name="गोविंदवल्लभ">
           <ArrowMark style="h-[2rem] right-10" />
         </Cart>
         <Cart name="जगदीशचन्द्र" style="top-[rem]">
